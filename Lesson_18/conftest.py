@@ -11,12 +11,12 @@ def driver():
     #
     # chrome_options = Options()
     # # # Словарь настроек для отключения уведомлений
-    # # prefs = {
-    # #     "credentials_enable_service": False,  # Отключаем предложение сохранить пароль
-    # #     "profile.password_manager_enabled": False,  # Отключаем сам менеджер паролей
-    # #     "profile.password_manager_leak_detection": False,  # Отключаем проверку утечек паролей
-    # #     "safebrowsing.enabled": False  # Отключаем антивирус (Safe Browsing)
-    # # }
+    # prefs = {
+    #     "credentials_enable_service": False,  # Отключаем предложение сохранить пароль
+    #     "profile.password_manager_enabled": False,  # Отключаем сам менеджер паролей
+    #     "profile.password_manager_leak_detection": False,  # Отключаем проверку утечек паролей
+    #     "safebrowsing.enabled": False  # Отключаем антивирус (Safe Browsing)
+    #  }
     # #
     # # chrome_options.add_experimental_option("prefs", prefs)
     # # chrome_options.add_argument("--disable-features=PasswordLeakDetection")  # Отключаем функцию проверки утечек паролей
