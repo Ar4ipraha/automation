@@ -3,6 +3,8 @@ name: UI and API Tests
 on:
   push:
     branches: [ "main" ]
+  schedule:
+    - cron: '0 4 * * *'      # каждый день в 04:00 UTC
 
 jobs:
   test-and-report:
